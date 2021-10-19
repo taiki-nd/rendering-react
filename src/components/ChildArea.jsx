@@ -5,7 +5,13 @@ const style = {
 };
 
 export const ChildArea = (props) => {
+  console.log("ChildAreaが200回レンダリングされた");
   const { open } = props;
+  const date = [...Array(200).keys()];
+  date.forEach(() => {
+    console.log("...");
+  });
+
   return (
     <>
       {open ? (
