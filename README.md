@@ -1,2 +1,3 @@
 # rendering-react
-Created with CodeSandbox
+
+レンダリングの最適化に関する勉強をしたリポジトリ
